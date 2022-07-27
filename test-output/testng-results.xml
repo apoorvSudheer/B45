@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-07-26T03:46:44Z" name="Default suite" finished-at="2022-07-26T03:47:08Z" duration-ms="23898">
+  <suite started-at="2022-07-27T02:25:09Z" name="Default suite" finished-at="2022-07-27T02:25:25Z" duration-ms="16399">
     <groups>
     </groups>
-    <test started-at="2022-07-26T03:46:44Z" name="Default test" finished-at="2022-07-26T03:47:08Z" duration-ms="23898">
-      <class name="script.ValidLogin">
-        <test-method is-config="true" signature="createReport()[pri:0, instance:script.ValidLogin@558bdf1f]" started-at="2022-07-26T03:46:44Z" name="createReport" finished-at="2022-07-26T03:46:44Z" duration-ms="396" status="PASS">
+    <test started-at="2022-07-27T02:25:09Z" name="Default test" finished-at="2022-07-27T02:25:25Z" duration-ms="16399">
+      <class name="script.InvalidLogin">
+        <test-method is-config="true" signature="createReport()[pri:0, instance:script.InvalidLogin@558bdf1f]" started-at="2022-07-27T02:25:08Z" name="createReport" finished-at="2022-07-27T02:25:09Z" duration-ms="425" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createReport -->
-        <test-method is-config="true" signature="openApp(java.lang.reflect.Method, java.lang.String)[pri:0, instance:script.ValidLogin@558bdf1f]" started-at="2022-07-26T03:46:44Z" name="openApp" finished-at="2022-07-26T03:47:02Z" duration-ms="17104" status="PASS">
+        <test-method is-config="true" signature="openApp(java.lang.reflect.Method, java.lang.String)[pri:0, instance:script.InvalidLogin@558bdf1f]" started-at="2022-07-27T02:25:09Z" name="openApp" finished-at="2022-07-27T02:25:21Z" duration-ms="12633" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void script.ValidLogin.testValidLogin()]]>
+                <![CDATA[public void script.InvalidLogin.testInvalidLogin()]]>
               </value>
             </param>
             <param index="1">
@@ -27,26 +27,26 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method signature="testValidLogin()[pri:1, instance:script.ValidLogin@558bdf1f]" started-at="2022-07-26T03:47:02Z" name="testValidLogin" finished-at="2022-07-26T03:47:07Z" duration-ms="5709" status="PASS">
+        <test-method signature="testInvalidLogin()[pri:2, instance:script.InvalidLogin@558bdf1f]" started-at="2022-07-27T02:25:21Z" name="testInvalidLogin" finished-at="2022-07-27T02:25:24Z" duration-ms="2930" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testValidLogin -->
-        <test-method is-config="true" signature="closeApp(org.testng.ITestResult)[pri:0, instance:script.ValidLogin@558bdf1f]" started-at="2022-07-26T03:47:07Z" name="closeApp" finished-at="2022-07-26T03:47:08Z" duration-ms="1066" status="PASS">
+        </test-method> <!-- testInvalidLogin -->
+        <test-method is-config="true" signature="closeApp(org.testng.ITestResult)[pri:0, instance:script.InvalidLogin@558bdf1f]" started-at="2022-07-27T02:25:24Z" name="closeApp" finished-at="2022-07-27T02:25:25Z" duration-ms="819" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testValidLogin status=SUCCESS method=ValidLogin.testValidLogin()[pri:1, instance:script.ValidLogin@558bdf1f] output={null}]]]>
+                <![CDATA[[TestResult name=testInvalidLogin status=SUCCESS method=InvalidLogin.testInvalidLogin()[pri:2, instance:script.InvalidLogin@558bdf1f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->
-        <test-method is-config="true" signature="publishReport()[pri:0, instance:script.ValidLogin@558bdf1f]" started-at="2022-07-26T03:47:08Z" name="publishReport" finished-at="2022-07-26T03:47:09Z" duration-ms="397" status="PASS">
+        <test-method is-config="true" signature="publishReport()[pri:0, instance:script.InvalidLogin@558bdf1f]" started-at="2022-07-27T02:25:25Z" name="publishReport" finished-at="2022-07-27T02:25:26Z" duration-ms="381" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- publishReport -->
-      </class> <!-- script.ValidLogin -->
+      </class> <!-- script.InvalidLogin -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
